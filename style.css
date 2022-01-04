@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: green;
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.photo img {
+    width: 350px;
+}
+
+.left-side p {
+    text-align: justify;
+}
+
+.details-btn {
+    padding: 20px 60px;
+    background-image: linear-gradient(45deg, green, red, green);
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+}
+
+.second-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.dhaka {
+    width: 250px;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px gray;
+}
+
+.div-image img {
+    width: 100%;
+}
+
+.button-section {
+    padding: 15px;
+}
+
+.details {
+    background-color: red;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: .8s;
+}
+
+.details:hover {
+    background-color: aqua;
+    color: aliceblue;
+}
+
+{
+    justify-content: space-around;
+    padding: 50px;
+}
